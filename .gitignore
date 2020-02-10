@@ -1,0 +1,4 @@
+.idea/
+embedding/
+checkpoints/
+*.pyc
