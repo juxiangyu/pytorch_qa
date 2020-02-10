@@ -1,4 +1,4 @@
-# Assignment 2 Instruction
+# Pytorch QA using BiLSTM + Attention 
 
 ### Experiment Environment
 
@@ -33,7 +33,7 @@
     - Use `python pysrc/main.py -h` to check parameter settings. 
 - **Model Training**
     - Run command `python pysrc/main.py --mode training` to train model by default settings.
-    - default model is "bilstm + attention". Detailed net structure is shown the  figure.
+    - default model is "bilstm + attention". Detailed net structure is shown in the figure.
     ![avatar](./bilstm_attention.jpg)
     - The implementation is based on Paper [LSTM-BASED DEEP LEARNING MODELS FOR NONFACTOID ANSWER SELECTION](https://openreview.net/pdf?id=ZY9xwl3PDS5Pk8ELfEzP). Find algorithm details in the paper.
 - **Evaluation**
@@ -43,14 +43,13 @@
     - Run command `python pysrc/main.py --mode simulation` to enter simulation mode.
     - Simulation mode is used to work as a real qa bot, ask question in command line.
     - Invalid word is not allowed in this mode.
-    - You can select a candidate questions to interact with qa bot. 
+    - You can select question from supplied candidate questions to interact with qa bot. 
     - Simulation mode computes all similarities between question with every answer in the dataset, and then select the most similar answer.
     
 
 ### Experiment Result
 
 This repository implemented 3 algorithm in the paper. Benchmark results are shown in the table.
-
 
 | | Dev | Test1 | Test2 
 |----|----|----|----
