@@ -49,9 +49,9 @@
 
 ### Experiment Result
 
-This repository implemented 3 algorithm in the paper. Benchmark results are shown in the table.
+This repository implemented 3 algorithm in the paper. Benchmark results are shown in the table. Our attention method is a simplified version in comparison with the paper method. 
 
-| | Dev | Test1 | Test2 
+| | Validation | Test1 | Test2 
 |----|----|----|----
 | QA-LSTM basic-model (avg pooling) | 52.56% | 61.16% | 57.33%
 | QA-LSTM basic-model (max pooling) | 59.61% | 61,17% | 61.55%
